@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Nav from '@/components/Nav'
-import Sidebar from '@/components/Sidebar'
+import Topbar from '@/components/Topbar'
 import PWAInstaller from '@/components/PWAInstaller'
 import { AuthProvider } from '@/lib/auth'
 
@@ -30,17 +30,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-screen bg-bg">
         <AuthProvider>
-          {/* Desktop layout */}
-          <div className="hidden lg:flex min-h-screen">
-            <Sidebar />
-            <main className="flex-1 ml-64 min-h-screen bg-bg">
+
+          {/* Desktop — topbar + contenu centré */}
+          <div className="hidden lg:block">
+            <Topbar />
+            <main className="pt-16 min-h-screen bg-bg">
               <div className="max-w-6xl mx-auto px-8 py-8">
                 {children}
               </div>
             </main>
           </div>
 
-          {/* Mobile layout */}
+          {/* Mobile — app classique */}
           <div className="lg:hidden max-w-md mx-auto min-h-screen flex flex-col relative shadow-2xl bg-bg overflow-hidden">
             <main className="flex-1 pb-24">
               {children}
