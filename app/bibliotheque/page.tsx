@@ -31,7 +31,7 @@ export default function CollectionPage() {
         {/* Titre + recherche */}
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-5">
           <div>
-            <h1 className="text-[24px] font-medium text-text">Ma collection</h1>
+            <h1 className="text-[28px] font-semibold text-text leading-tight">Ma collection</h1>
             <p className="text-muted text-sm">{medals.length} pièce{medals.length !== 1 ? 's' : ''} répertoriée{medals.length !== 1 ? 's' : ''}</p>
           </div>
           {/* Recherche desktop */}

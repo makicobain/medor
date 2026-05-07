@@ -60,7 +60,7 @@ export default function ProfilPage() {
       <div className="px-5 pt-4 lg:px-0 lg:pt-0 flex flex-col gap-4">
         {/* Titre */}
         <div className="flex items-center justify-between">
-          <h1 className="text-[24px] font-medium text-text">Mon profil</h1>
+          <h1 className="text-[28px] font-semibold text-text leading-tight">Mon profil</h1>
           {user && (
             <button onClick={() => setEditing(!editing)}
               className="w-8 h-8 flex items-center justify-center">

@@ -25,7 +25,7 @@ export default function ParamPage() {
       </div>
 
       <div className="px-5 pt-4 lg:px-0 lg:pt-0 flex flex-col gap-4">
-        <h1 className="text-[24px] font-medium text-text">Paramètres</h1>
+        <h1 className="text-[28px] font-semibold text-text leading-tight">Paramètres</h1>
 
         <Card title="Résumé">
           {[
