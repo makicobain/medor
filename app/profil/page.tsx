@@ -57,7 +57,7 @@ export default function ProfilPage() {
         <img src={MDP_LOGO} alt="Monnaie de Paris" className="h-[58px] w-auto object-contain" style={{ mixBlendMode: 'lighten' }} />
       </div>
 
-      <div className="px-5 pt-4 flex flex-col gap-4">
+      <div className="px-5 pt-4 lg:px-0 lg:pt-0 flex flex-col gap-4">
         {/* Titre */}
         <div className="flex items-center justify-between">
           <h1 className="text-[24px] font-medium text-text">Mon profil</h1>

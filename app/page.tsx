@@ -44,7 +44,7 @@ export default function AccueilPage() {
         <img src={MDP_LOGO} alt="Monnaie de Paris" className="h-[58px] w-auto object-contain" style={{ mixBlendMode: 'lighten' }} />
       </div>
 
-      <div className="px-5 py-4 lg:px-0 lg:py-0 flex flex-col gap-5">
+      <div className="px-5 pt-4 lg:px-0 lg:pt-0 flex flex-col gap-5">
         <h1 className="text-[24px] font-medium text-text">
           Bienvenue, {profile?.pseudo ?? 'Collectionneur'}
         </h1>

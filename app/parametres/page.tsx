@@ -24,7 +24,7 @@ export default function ParamPage() {
         <img src={MDP_LOGO} alt="Monnaie de Paris" className="h-[58px] w-auto object-contain" style={{ mixBlendMode: 'lighten' }} />
       </div>
 
-      <div className="px-5 pt-4 flex flex-col gap-4">
+      <div className="px-5 pt-4 lg:px-0 lg:pt-0 flex flex-col gap-4">
         <h1 className="text-[24px] font-medium text-text">Paramètres</h1>
 
         <Card title="Résumé">
