@@ -115,8 +115,8 @@ export default function CartePage() {
     <div className="min-h-screen bg-bg pb-24">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 
-      {/* Header */}
-      <div className="bg-dark px-4 pt-4 pb-4">
+      
+      <div className="bg-dark px-4 pt-4 pb-4 lg:hidden">
         <img src={MDP_LOGO} alt="Monnaie de Paris" className="h-[58px] w-auto object-contain" style={{ mixBlendMode: 'lighten' }} />
       </div>
 
