@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Topbar />
             {/* pt-72px = topbar height, all pages start at same y position */}
             <main className="min-h-screen bg-bg" style={{ paddingTop: 72 }}>
-              <div className="max-w-6xl mx-auto px-8 py-8">
+              <div className="max-w-6xl mx-auto px-8" style={{ paddingTop: 40, paddingBottom: 40 }}>
                 {children}
               </div>
             </main>
