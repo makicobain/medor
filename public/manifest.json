@@ -1,0 +1,26 @@
+{
+  "name": "Médor — Mini Médailles",
+  "short_name": "Médor",
+  "description": "Répertoire personnel de mini médailles de la Monnaie de Paris",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F8FC",
+  "theme_color": "#B5174B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["lifestyle", "utilities"]
+}
