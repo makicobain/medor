@@ -31,17 +31,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen bg-bg">
         <AuthProvider>
 
-          {/* Desktop — topbar + contenu centré */}
+          {/* Desktop */}
           <div className="hidden lg:block">
             <Topbar />
-            <main className="pt-16 min-h-screen bg-bg">
+            {/* pt-72px = topbar height, all pages start at same y position */}
+            <main className="min-h-screen bg-bg" style={{ paddingTop: 72 }}>
               <div className="max-w-6xl mx-auto px-8 py-8">
                 {children}
               </div>
             </main>
           </div>
 
-          {/* Mobile — app classique */}
+          {/* Mobile */}
           <div className="lg:hidden max-w-md mx-auto min-h-screen flex flex-col relative shadow-2xl bg-bg overflow-hidden">
             <main className="flex-1 pb-24">
               {children}
