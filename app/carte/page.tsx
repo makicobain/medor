@@ -45,7 +45,7 @@ export default function AccueilPage() {
       </div>
 
       <div className="px-5 pt-4 lg:px-0 lg:pt-0 flex flex-col gap-5">
-        <h1 className="text-[24px] font-medium text-text">
+        <h1 className="text-[28px] font-semibold text-text leading-tight">
           Bienvenue, {profile?.pseudo ?? 'Collectionneur'}
         </h1>
 
